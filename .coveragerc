@@ -1,0 +1,5 @@
+[run]
+include = spec_sheets/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin
